@@ -11,38 +11,36 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              About var, let, and const Variable Declaration in JavaScript.....
+                <h1>Difference Between Local Storage, Session Storage</h1>
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <p>Variables declared with var and const are scoped to the immediate function body.
-                Variables declared with the var keyword are hoisted. Hoisting means that the variable can be accessed in their enclosing scope even before they are declared.
-                Variables declared with the let keyword are block-scoped, which means the variables will have scope to the immediate enclosing block.</p>
+                <p>The storage capacity of local storage is 5MB/10MB.The storage capacity of session storage is 5MB.The client  can only read local storage.The client can only read local storage.As localstorage is not session-based, it must be deleted via javascript or manually.Seasonstorage session-based and works per window or tab. This means that data is stored only for the duration of a session, i.e., until the browser (or tab) is closed.</p>
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              About Array Function Arguments And Parameters...
+              <h1>Difference of Global scope and block scope</h1>
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <p>Chapter 6 stated that pass-by-value is the default argument passing technique for C++ functions, which is true for most kinds of data. But arrays are the exception to this rule: program always pass them to functions by-pointer. The difference between arrays and the pass-by-pointer examples presented in chapter 6 is how we obtain the address. Previous examples required us to use the address-of-operator to get the address of the passed data. But the array's name is its address, specifically, the address of the first element in the array.</p>
+              <p>In order to know which keyword to use we must first know about the scope in javascript. As the name says it ‘scope’ means which variable is accessible and upto which point it is accessible.So, in javascript the whole document is global scope and all the other functions and variables are contained in this global scope.A variable when declared inside the if or switch conditions or inside for or while loops, are accessible within that particular condition or loop. To be consise the variables declared inside the curly braces are called as within block scope.</p>
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                .forEach(), .map(), .filter() .... What's the difference?
+                <h1>How does the Event Loop works in JavaScript?</h1>
             </button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <p>.forEach(), is used to execute the same code on every element in an array but does not change the array and it returns undefined. <br>.map() executes the same code on every element in an array and returns a new array with the updated elements. <br>.filter() checks every element in an array to see if it meets a certain criteria and returns a new array with the elements that return truthy for the criteria.</p>
+              <p>The event loop is a process that waits for the Call Stack to be clear before pushing callbacks from the Task Queue to the Call Stack. Once the Stack is clear, the event loop triggers and checks the Task Queue for available callbacks. If there are any, it pushes it to the Call Stack, waits for the Call Stack to be clear again, and repeats the same process.</p>
             </div>
           </div>
         </div>
