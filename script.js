@@ -73,6 +73,8 @@ const gameOver = () => {
   resultModal.innerHTML = "";
   resultModal.classList.toggle("hidden");
   modalBackground.classList.toggle("hidden");
+  resultModal.style.top = '50%';
+  resultModal.style.left = '50%';
   // clear user text
   display.innerHTML = "";
   // make it inactive
